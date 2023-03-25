@@ -163,15 +163,18 @@ header.is-pinned #select-category {
     --shadow-color: rgba(38, 38, 84, 0.25);
     --x-shadow-offset: 0.1em;
     --y-shadow-offset: 0.2em;
-
+    transition: top 0.5s, left 0.5s, transform 0.5s;
 
 }
 
 .book:hover .ranking {
-    left: -0.35em;
+    top: -1.25rem;
+    left: -1rem;
+    transform: rotate(0deg);
+    border-color: transparent;
     /* display: none; */
-    --rank-color: transparent;
-    --shadow-color: transparent;
+    /* --rank-color: transparent;
+    --shadow-color: transparent; */
 }
 
 .book .info {
