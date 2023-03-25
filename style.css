@@ -71,7 +71,7 @@ header.is-pinned h1 {
     padding-bottom: 0.21em;
 }
 
-.is-pinned #category-column .#category-label{
+.is-pinned #category-column #category-label{
     text-align: right;
 }
 
